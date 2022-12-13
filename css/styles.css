@@ -358,7 +358,7 @@ img {
   margin-bottom: 10px;
 }
 
-.form-field:last-child {
+.form-field:nth-child(4) {
   margin-bottom: 0;
 }
 
@@ -469,7 +469,6 @@ img {
 .checkbox__link {
   color: var(--accent-color);
   text-decoration-skip-ink: none;
-  margin-left: ;
 }
 
 .button-form {
@@ -854,7 +853,7 @@ img {
 
   border: 1px solid var(--footer-subscribe-border);
   border-radius: 4px;
-
+  color: var(--primary-white-color);
   background-color: var(--footer-bg-color);
 }
 
